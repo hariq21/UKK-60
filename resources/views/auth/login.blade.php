@@ -19,7 +19,7 @@
                 <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5">
                     <div class="card border-0 shadow-sm rounded-4">
                         <div class="card-body p-4 p-md-5">
-                            <div class="text-center mb-4">                                
+                            <div class="text-center mb-4">
                                 <h1 class="h3 fw-bold mb-1">Masuk Akun</h1>
                                 <p class="text-muted mb-0">Sarana Pengaduan Sekolah</p>
                             </div>
@@ -67,7 +67,7 @@
                         </div>
                     </div>
 
-                    <p class="text-muted small mt-3 mb-0 text-center">&copy; 2024 Sarana Pengaduan Sekolah (SPS). Hak Cipta Dilindungi.</p>
+                    <p class="text-muted small mt-3 mb-0 text-center">&copy; 2026 Aspirasiku. Hak Cipta Dilindungi.</p>
                 </div>
             </div>
         </div>
