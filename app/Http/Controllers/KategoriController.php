@@ -19,12 +19,17 @@ class KategoriController extends Controller
 
     public function store(Request $request)
     {
-        Kategori::create([
-            'id_kategori' => strtoupper(trim((string) $request->input('id_kategori'))),
-            'nama' => trim((string) $request->input('nama')),
-        ]);
+        $request->validate([
+            'id_kategori' => 'required|unique:kategoris,id_kategori',
+            'nama' => 'required'
+    ]);
 
-        return back();
+    Kategori::create([
+        'id_kategori' => strtoupper(trim((string) $request->input('id_kategori'))),
+        'nama' => trim((string) $request->input('nama')),
+    ]);
+
+    return back()->with('success', 'Data berhasil ditambahkan');
     }
 
     public function update(Request $request, Kategori $kategori)
