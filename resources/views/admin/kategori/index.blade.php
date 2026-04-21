@@ -19,7 +19,7 @@
             <main class="col p-3 p-md-4">
                 <div class="mb-4">
                     <h1 class="h3 mb-1">Kategori Pengaduan</h1>
-                    <p class="small text-secondary mb-0">Kelola klasifikasi pengaduan dengan tampilan dashboard yang clean.</p>
+                    <p class="small text-secondary mb-0">Kelola klasifikasi pengaduan dengan tampilan dashboard.</p>
                 </div>
 
                 @if (session('success'))

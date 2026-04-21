@@ -19,7 +19,7 @@
             <main class="col p-3 p-md-4">
                 <div class="mb-4">
                     <h1 class="h3 mb-1">Data Siswa</h1>
-                    <p class="small text-secondary mb-0">Kelola data akun siswa dengan tampilan dashboard yang clean.</p>
+                    <p class="small text-secondary mb-0">Kelola data akun siswa dengan tampilan dashboard</p>
                 </div>
 
                 @if (session('success'))
